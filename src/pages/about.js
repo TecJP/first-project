@@ -20,6 +20,7 @@ const User = props => (
 export default function About() {
     return (
         <Container>
+            <Link to="/">Home</Link>
             <Header headerText="About Gatsby" />
             <User
                 username="Maria Randall"
@@ -31,7 +32,6 @@ export default function About() {
                 avatar="https://raw.githubusercontent.com/gatsbyjs/gatsby/master/docs/docs/tutorial/part-two/pexels-guilherme-almeida-1858175.jpg"
                 excerpt="I'm Daniela Dewitt. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
             />
-            <Link to="/">Home</Link>
         </Container>
     )
 }
